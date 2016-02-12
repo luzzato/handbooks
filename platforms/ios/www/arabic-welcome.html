@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="description" content="">
+    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1">
+    
+    <!-- title -->
+	<title>Tala</title>
+	
+	<!-- bootstrap-->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css">
+    
+    <!-- custom-css-->
+    <link rel="stylesheet" type="text/css" href="css/arabic-main.css">
+    <script src="phonegap.js"></script>
+    <script src="cordova.js"></script>
+    <script type="text/javascript" src="orientationchanger.js"></script>
+    <script type="text/javascript" src="PushNotification.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>  
+    <script type="text/javascript">
+    function onLoad() {
+    	document.addEventListener('deviceready', function() {
+    		try {
+    			screen.unlockOrientation();
+    		}
+    		catch(e) {}
+    	}, false);
+
+    	var pushnotificationid=localStorage.getItem("pushnotificationid");
+	 	if(!pushnotificationid){
+			app.initialize();
+		}
+    }
+    </script>
+
+</head>
+<body data-lang="arabic" onload="onLoad()">
+	<div id="mainBody">
+		<!--
+		<div class="homeIcon welcomeRefresh">
+			<a onClick="downloadToLocalStorage()" href="javascript:void(0)" title="Refre"><img src="images/refresh.png" alt="Refresh"></a>
+		</div>
+		-->
+		<header>
+			<img src="images/header.png" alt="header image">
+		</header>
+		<div class="welcomMsgLogo">
+			<div class="welcom textTitle">مرحبا بكم في</div>
+			<div class="welcomeLogo">
+				<img src="images/innerLogo.jpg" alt="welcome image">
+			</div>
+		</div>
+		<footer>
+			<div class="pullRight">
+				<img src="images/footer.png" alt="footer image">
+				<div class="textTitle continue"><a href="arabic-gallery.html">استمر...</a></div>
+			</div>
+		</footer>
+	</div>
+
+	<div id="overlay"><img src="images/loader.gif" width="60" alt="loading..." /></div>
+    <!-- scripts -->
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/jquery-migrate-1.2.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/hummer.js"></script>
+	<script src="js/customs.js"></script>
+</body>
+</html>

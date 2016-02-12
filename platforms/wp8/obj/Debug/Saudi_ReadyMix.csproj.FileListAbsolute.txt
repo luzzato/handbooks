@@ -1,0 +1,17 @@
+C:\Users\Christian\Documents\AlturkiApps_Latest\AlturkiApps\platforms\wp8\Bin\Debug\ApplicationIcon.png
+C:\Users\Christian\Documents\AlturkiApps_Latest\AlturkiApps\platforms\wp8\Bin\Debug\Background.png
+C:\Users\Christian\Documents\AlturkiApps_Latest\AlturkiApps\platforms\wp8\Bin\Debug\com.alturkigroup.alturkiapps.dll
+C:\Users\Christian\Documents\AlturkiApps_Latest\AlturkiApps\platforms\wp8\Bin\Debug\com.alturkigroup.alturkiapps.pdb
+C:\Users\Christian\Documents\AlturkiApps_Latest\AlturkiApps\platforms\wp8\Bin\Debug\AppManifest.xaml
+C:\Users\Christian\Documents\AlturkiApps_Latest\AlturkiApps\platforms\wp8\Bin\Debug\Properties\WMAppManifest.xml
+C:\Users\Christian\Documents\AlturkiApps_Latest\AlturkiApps\platforms\wp8\Bin\Debug\CordovaAppProj_Debug_AnyCPU.xap
+C:\Users\Christian\Documents\AlturkiApps_Latest\AlturkiApps\platforms\wp8\Bin\Debug\Newtonsoft.Json.dll
+C:\Users\Christian\Documents\AlturkiApps_Latest\AlturkiApps\platforms\wp8\obj\Debug\Saudi_ReadyMix.csprojResolveAssemblyReference.cache
+C:\Users\Christian\Documents\AlturkiApps_Latest\AlturkiApps\platforms\wp8\obj\Debug\App.g.cs
+C:\Users\Christian\Documents\AlturkiApps_Latest\AlturkiApps\platforms\wp8\obj\Debug\Plugins\org.apache.cordova.dialogs\NotificationBox.g.cs
+C:\Users\Christian\Documents\AlturkiApps_Latest\AlturkiApps\platforms\wp8\obj\Debug\cordovalib\CordovaView.g.cs
+C:\Users\Christian\Documents\AlturkiApps_Latest\AlturkiApps\platforms\wp8\obj\Debug\MainPage.g.cs
+C:\Users\Christian\Documents\AlturkiApps_Latest\AlturkiApps\platforms\wp8\obj\Debug\com.alturkigroup.alturkiapps.g.resources
+C:\Users\Christian\Documents\AlturkiApps_Latest\AlturkiApps\platforms\wp8\obj\Debug\com.alturkigroup.alturkiapps.dll
+C:\Users\Christian\Documents\AlturkiApps_Latest\AlturkiApps\platforms\wp8\obj\Debug\com.alturkigroup.alturkiapps.pdb
+C:\Users\Christian\Documents\AlturkiApps_Latest\AlturkiApps\platforms\wp8\obj\Debug\XapCacheFile.xml

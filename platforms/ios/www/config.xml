@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<widget xmlns     = "http://www.w3.org/ns/widgets"
+        xmlns:gap = "http://phonegap.com/ns/1.0"
+        id        = "com.alturkigroup"
+        version   = "1.1">
+
+    <name>Alturki Apps</name>
+
+    <description>
+        Alturki Apps Description
+    </description>
+
+    <author href="http://alturkigroup.com" email="alturkiapps@gmail.com">
+        Alturki Apps
+    </author>
+
+    <preference name="permissions" value="none"/>
+    <feature name="http://api.phonegap.com/1.0/device" />
+
+    <icon gap:platform="android" src="res/icon/android/drawable-ldpi/ic_launcher.png" gap:qualifier="ldpi" />
+    <icon gap:platform="android" src="res/icon/android/drawable-mdpi/ic_launcher.png" gap:qualifier="mdpi" />
+    <icon gap:platform="android" src="res/icon/android/drawable-hdpi/ic_launcher.png" gap:qualifier="hdpi" />
+    <icon gap:platform="android" src="res/icon/android/drawable-xhdpi/ic_launcher.png" gap:qualifier="xhdpi" />
+    <icon gap:platform="android" src="res/icon/android/drawable-xxhdpi/ic_launcher.png" gap:qualifier="xxhdpi" />
+    
+    <icon gap:platform="ios" src="res/icon/ios/Icon-72.png" gap:qualifier=""/>    
+    <icon gap:platform="ios" src="res/icon/ios/Icon-72.png" width="57" height="57" />
+    <icon gap:platform="ios" src="res/icon/ios/Icon-72.png" width="72" height="72" />
+    <icon gap:platform="ios" src="res/icon/ios/Icon-72.png" width="114" height="114" />
+    <icon gap:platform="ios" src="res/icon/ios/Icon-72.png" width="144" height="144" />
+
+    <icon gap:platform="webos" src="res/icon/webos/icon-64.png" />
+    <icon gap:platform="winphone" src="res/icon/windows/icon-48.png" />
+    <icon gap:platform="winphone" gap:role="background" src="res/icon/windows/icon-173.png" />
+    
+    <gap:plugin name="com.phonegap.plugins.pushplugin" />
+    <gap:plugin name="com.boyvanderlaak.cordova.plugin.orientationchanger" />
+    <access origin="*"/>
+
+</widget>

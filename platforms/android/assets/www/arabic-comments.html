@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="description" content="">
+    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1">
+    
+    <!-- title -->
+	<title>Tala</title>    
+    
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <!-- custom-css-->
+    <link rel="stylesheet" type="text/css" href="css/arabic-main.css">
+    <script src="cordova.js"></script>
+    <script type="text/javascript">
+    function onLoad() {
+    	document.addEventListener('deviceready', function() {
+    		try {
+    			screen.unlockOrientation();	
+    		}
+    		catch(e) {}
+    	}, false);
+    }
+    </script>
+
+</head>
+<body data-lang="arabic" onload="onLoad()">
+	<div id="mainBody">
+		<div id="menuMain">
+		<div class="menuBtn">
+			<img src="images/menuBtn.png" alt="menu image">
+		</div>
+		<div class="menu">
+			<div class="menuItem"><a href="welcome.html">Eng</a> | <a href="arabic-welcome.html">عربي</a></div>
+			<div class="menuItem"><a data-id="7" href="arabic-pages.html">خطاب الرئيس الترحيبي</a></div>
+			<div class="menuItem"><a data-id="1" href="arabic-pages.html">مقدمة</a></div>
+			<div class="menuItem"><a data-id="2" href="arabic-pages.html">إدارة المواهب</a></div>
+			<div class="menuItem"><a data-id="3" href="arabic-pages.html">سياسة علاقات الموظفين</a></div>
+			<div class="menuItem"><a data-id="4" href="arabic-pages.html">سياسة السفر للعمل</a></div>
+			<div class="menuItem"><a data-id="5" href="arabic-pages.html">سياسة إجمالي المكافآت</a></div>
+			<!--<div class="menuItem"><a data-id="6" href="arabic-pages.html">حول تطبيقات</a></div>-->
+			<div class="menuItem empty"></div>
+			<div class="menuItem"><a href="arabic-massages.html">الإشعارات<span class="newMsg msgNum">0</span></a></div>
+			<div class="menuItem"><a href="arabic-events.html">الأحداث العامة<span class="newMsg eventNum">0</span></a></div>
+			<div class="menuItem"><a href="arabic-downloads.html">التنزيلات</a></div>
+			<div class="menuItem"><a href="arabic-gallery.html">معرض المجموعة</a></div>		
+			<div class="menuItem empty"></div>
+			<div class="menuItem"><a href="arabic-settings.html">الإعدادات</a></div>
+			<!--
+			<div class="menuItem"><a data-id="6" href="arabic-pages.html">&nbsp;&nbsp;حول تطبيقات</a></div>
+			<div class="menuItem"><a href="arabic-comments.html">&nbsp;&nbsp;تعليقات</a></div>
+			<div class="menuItem"><a href="arabic-settings.html">&nbsp;&nbsp;تحديث تطبيقات</a></div>
+			-->
+			<div class="menuItem"><a onclick="logOut()" href="javascript:void(0)">خروج</a></div>
+			<div class="logoBottom"><img alt="menu image" src="images/whiteLogo.png"></div>
+		</div>
+		</div>
+		<div id="main" class="settingPg">
+			<div class="newHeader">
+				<span>الإعدادات</span>				
+				<div class="homeIcon">
+					<a href="welcome.html" title="Home"><img src="images/home.png" alt="menu image"></a>
+				</div>
+				<!--		
+				<div class="homeIcon">
+					<a onClick="downloadToLocalStorage()" href="javascript:void(0)" title="Refresh"><img src="images/refresh.png" alt="Refresh"></a>
+				</div>
+				-->
+				<div id="fontResize"><a class="increase" href="javascript:void(0)" title="Font resize">+</a> <a class="decrease" href="javascript:void(0)" title="Font resize">-</a></div>
+			</div>						
+			<div id="ajaxLoaderContent"><img src="images/loader.gif" width="60" alt="loading..."></div>
+			<div class="msgContainer fontControler" id="commentsBox">
+				<p class="showMsg">&nbsp;</p>
+				<p><strong>Send your comments.</strong></p>
+				<form action="" method="post" onSubmit="return false" data-ajax="false">
+					<p>
+اسم:</p>
+					<input type="text" class="cmnttext" name="cname" id="cname" />
+					<p>موضوع:</p>
+					<input type="text" class="cmnttext" name="csubject" id="csubject" />
+					<p>
+تعليقات:</p>
+					<textarea rows="4" name="comment" id="comment"></textarea>
+					<input type="submit" class="btnDownload" value="
+إرسال" name="submit" id="submit" >
+				</form>				
+			</div>
+			<div class="clear"></div>
+		</div>
+	</div>
+	
+	<div id="overlay"><img src="images/loader.gif" width="60" alt="loading..." /></div>
+    <!-- scripts -->
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/jquery-migrate-1.2.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/hummer.js"></script>
+	<script src="js/customs.js"></script>
+</body>
+</html>

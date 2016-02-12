@@ -1,0 +1,17 @@
+F:\PhonegapOffer(final)\AlturkiApps_Final(i2)\AlturkiApps_Final\AlturkiApps\platforms\wp8\Bin\Release\ApplicationIcon.png
+F:\PhonegapOffer(final)\AlturkiApps_Final(i2)\AlturkiApps_Final\AlturkiApps\platforms\wp8\Bin\Release\Background.png
+F:\PhonegapOffer(final)\AlturkiApps_Final(i2)\AlturkiApps_Final\AlturkiApps\platforms\wp8\Bin\Release\com.alturkigroup.alturkiapps.itwo.dll
+F:\PhonegapOffer(final)\AlturkiApps_Final(i2)\AlturkiApps_Final\AlturkiApps\platforms\wp8\Bin\Release\com.alturkigroup.alturkiapps.itwo.pdb
+F:\PhonegapOffer(final)\AlturkiApps_Final(i2)\AlturkiApps_Final\AlturkiApps\platforms\wp8\Bin\Release\AppManifest.xaml
+F:\PhonegapOffer(final)\AlturkiApps_Final(i2)\AlturkiApps_Final\AlturkiApps\platforms\wp8\Bin\Release\Properties\WMAppManifest.xml
+F:\PhonegapOffer(final)\AlturkiApps_Final(i2)\AlturkiApps_Final\AlturkiApps\platforms\wp8\Bin\Release\com.alturkigroup.alturkiapps.itwo.xap
+F:\PhonegapOffer(final)\AlturkiApps_Final(i2)\AlturkiApps_Final\AlturkiApps\platforms\wp8\Bin\Release\Newtonsoft.Json.dll
+F:\PhonegapOffer(final)\AlturkiApps_Final(i2)\AlturkiApps_Final\AlturkiApps\platforms\wp8\obj\Release\i2_alturki.csprojResolveAssemblyReference.cache
+F:\PhonegapOffer(final)\AlturkiApps_Final(i2)\AlturkiApps_Final\AlturkiApps\platforms\wp8\obj\Release\App.g.cs
+F:\PhonegapOffer(final)\AlturkiApps_Final(i2)\AlturkiApps_Final\AlturkiApps\platforms\wp8\obj\Release\Plugins\org.apache.cordova.dialogs\NotificationBox.g.cs
+F:\PhonegapOffer(final)\AlturkiApps_Final(i2)\AlturkiApps_Final\AlturkiApps\platforms\wp8\obj\Release\cordovalib\CordovaView.g.cs
+F:\PhonegapOffer(final)\AlturkiApps_Final(i2)\AlturkiApps_Final\AlturkiApps\platforms\wp8\obj\Release\MainPage.g.cs
+F:\PhonegapOffer(final)\AlturkiApps_Final(i2)\AlturkiApps_Final\AlturkiApps\platforms\wp8\obj\Release\com.alturkigroup.alturkiapps.itwo.g.resources
+F:\PhonegapOffer(final)\AlturkiApps_Final(i2)\AlturkiApps_Final\AlturkiApps\platforms\wp8\obj\Release\com.alturkigroup.alturkiapps.itwo.dll
+F:\PhonegapOffer(final)\AlturkiApps_Final(i2)\AlturkiApps_Final\AlturkiApps\platforms\wp8\obj\Release\com.alturkigroup.alturkiapps.itwo.pdb
+F:\PhonegapOffer(final)\AlturkiApps_Final(i2)\AlturkiApps_Final\AlturkiApps\platforms\wp8\obj\Release\XapCacheFile.xml
